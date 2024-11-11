@@ -1,0 +1,16 @@
+'''
+Author: Rifan Muhammed
+Date: 11-11-2024
+Day-3:Program to find product and also use different types of divisions on any 2 integers.
+version 3.13.0
+'''
+NUM1=int(input("ENTER FIRST NUMBER:"))
+NUM2=int(input("ENTER SECOND NUMBER:"))
+PRODUCT=NUM1*NUM2
+DIVISION=NUM1/NUM2
+FLOOR_DIVISION=NUM1//NUM2
+REMAINDER_DIV=NUM1%NUM2
+print("THE PRODUCT OF TWO NUMBERS=",PRODUCT)
+print("THE QUOTIENT OF TWO NUMBERS=",DIVISION)
+print("THE FLOOR DIVISION OF TWO NUMBERS=",FLOOR_DIVISION)
+print("THE REMAINER DIVISION OF TWO NUMBERS=",REMAINDER_DIV)
